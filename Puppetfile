@@ -30,6 +30,8 @@ mod 'puppetlabs-ntp', '10.1.0'
 mod 'puppetlabs-firewall', '7.0.2'
 mod 'puppetlabs-sshkeys_core', '2.4.0'
 mod 'puppetlabs-host_core', '1.2.0'
+mod 'thekevjames-homebrew', '1.9.1'
+
 
 
 
