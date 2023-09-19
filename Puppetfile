@@ -17,4 +17,15 @@ mod 'manifests',
     :install_path => '',
     :branch => 'main'
 
+mod 'profile',
+    :git => 'git@github.com:devops-jason/profile.git',
+    :branch => 'main'
+
+mod 'role',
+    :git => 'git@github.com:devops-jason/role.git',
+    :branch => 'main'
+
+
+
+
 
