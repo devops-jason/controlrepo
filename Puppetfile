@@ -25,6 +25,14 @@ mod 'role',
     :git => 'git@github.com:devops-jason/role.git',
     :branch => 'main'
 
+mod 'puppetlabs-concat', '9.0.0'
+mod 'puppetlabs-ntp', '10.1.0'
+mod 'puppetlabs-firewall', '7.0.2'
+mod 'puppetlabs-sshkeys_core', '2.4.0'
+mod 'puppetlabs-host_core', '1.2.0'
+
+
+
 
 
 
