@@ -12,3 +12,9 @@ mod 'data',
     :install_path => '',
     :branch => 'main'
 
+mod 'manifests',
+    :git => 'git@github.com:devops-jason/manifests.git',
+    :install_path => '',
+    :branch => 'main'
+
+
