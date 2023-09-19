@@ -6,3 +6,8 @@ mod 'puppetlabs-inifile', '6.1.0'
 mod 'puppetlabs-vcsrepo', '6.1.0'
 mod 'choria-mcollective', '0.14.4'
 mod 'puppet-systemd', '6.0.0'
+
+mod 'hiera',
+    :git => 'git@github.com:devops-jason/hiera.git',
+    :install_path => 'data'
+
