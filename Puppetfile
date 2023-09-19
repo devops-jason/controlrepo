@@ -7,8 +7,8 @@ mod 'puppetlabs-vcsrepo', '6.1.0'
 mod 'choria-mcollective', '0.14.4'
 mod 'puppet-systemd', '6.0.0'
 
-mod 'hiera',
+mod 'data',
     :git => 'git@github.com:devops-jason/hiera.git',
-    :install_path => 'data',
+    :install_path => '',
     :branch => 'main'
 
