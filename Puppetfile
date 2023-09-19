@@ -9,5 +9,6 @@ mod 'puppet-systemd', '6.0.0'
 
 mod 'hiera',
     :git => 'git@github.com:devops-jason/hiera.git',
-    :install_path => 'data'
+    :install_path => 'data',
+    :branch => 'main'
 
