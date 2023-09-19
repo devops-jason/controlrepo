@@ -1,0 +1,8 @@
+version: 5
+
+defaults:
+
+hierachy:
+  - "node/%{::fqdn}"
+  - "os/%{::operatingsystem}"
+  - common
