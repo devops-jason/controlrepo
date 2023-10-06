@@ -32,6 +32,13 @@ mod 'puppetlabs-sshkeys_core', '2.4.0'
 mod 'puppetlabs-host_core', '1.2.0'
 mod 'thekevjames-homebrew', '1.9.1'
 
+mod 'puppetlabs-puppet_agent', '4.15.0'
+mod 'puppetlabs-apt', '9.1.0'
+mod 'puppetlabs-facts', '1.4.0'
+
+
+
+
 
 
 
