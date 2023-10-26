@@ -7,11 +7,24 @@ defaults:
   data_hash: yaml_data
 
 hierarchy:
+
   - name: "Per-node data"                   
     path: "nodes/%{::fqdn}.yaml"
+
+  - name: "Secure Per-node data"
+    path: "nodes/secure_%{::fqdn}.yaml"
 
   - name: "Per-OS defaults"
     path: "os/%{facts.os.family}.yaml"
 
+  - name: "Secure common data"
+    path: "secure.eyaml"
+
   - name: "Common data"
     path: "common.yaml"
+
+    lookup_key: eyaml_lookup_key
+
+options:
+  pkcs7_private_key: '/etc/puppetlabs/puppet/keys/private_key.pkcs7.pem'
+  pkcs7_public_key: /etc/puppetlabs/puppet/keys/public_key.pkcs7.pem 
