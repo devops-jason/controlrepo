@@ -43,6 +43,8 @@ mod 'thekevjames-homebrew', '1.9.1'
 mod 'puppetlabs-puppet_agent', '4.15.0'
 mod 'puppetlabs-apt', '9.1.0'
 mod 'puppetlabs-facts', '1.4.0'
+mod 'puppetlabs-puppetdb', '7.13.0'
+mod 'puppetlabs-postgresql', '10.0.1'
 
 
 
