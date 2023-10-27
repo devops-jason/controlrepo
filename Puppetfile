@@ -28,7 +28,11 @@ mod 'role',
 mod 'puppet_server',
     :git => 'git@github.com:devops-jason/puppet_server.git',
     :branch => 'main'
-    
+
+mod 'puppet_client',
+    :git => 'git@github.com:devops-jason/puppet_client.git',
+    :branch => 'main'
+
 mod 'puppetlabs-concat', '9.0.0'
 mod 'puppetlabs-ntp', '10.1.0'
 mod 'puppetlabs-firewall', '7.0.2'
